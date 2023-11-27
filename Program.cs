@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace dotnetcore
+namespace MetadataBuilderExample;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        MetadataBuilderExampleProgram.BuildHelloWorldApp();
+        
     }
 }
