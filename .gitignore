@@ -31,4 +31,4 @@ msbuild.err
 msbuild.wrn
 
 #Allow
-!/Debug/net7.0/ConsoleApplication.cs
+!/bin/Debug/net7.0/ConsoleApplication.cs
