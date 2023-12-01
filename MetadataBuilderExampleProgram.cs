@@ -9,13 +9,13 @@ namespace MetadataBuilderExample
 {
     public class MetadataBuilderExampleProgram
     {
-        private const string pdbName = @"d:\development\.net\_my_projects\MetadataBuilderExample\bin\Debug\net5.0\ConsoleApplication.pdb";
-        private const string scriptName = @"d:\development\.net\_my_projects\MetadataBuilderExample\bin\Debug\net5.0\ConsoleApplication.cs";                                            
+        private const string pdbName = @"bin/Debug/net7.0/ConsoleApplication.pdb";
+        private const string scriptName = @"/workspace/template-dotnet-core-cli-csharp/bin/Debug/net7.0/ConsoleApplication.cs";                                            
         private static readonly Guid s_guid = new Guid("87D4DBE1-1143-4FAD-AAB3-1001F92068E6");
         private static readonly BlobContentId s_contentId = new BlobContentId(s_guid, 0x04030201);
         private static readonly Guid s_pdb_guid = new Guid("afddd956-9531-4dcb-a8ce-4ff57272afa0");
         private static readonly BlobContentId s_pdb_contentId = new BlobContentId(s_pdb_guid, 0x04030201);
-        private static readonly String dllName = "ConsoleApplication.dll";
+        private static readonly String dllName = @"bin/Debug/net7.0/ConsoleApplication.dll";
 
 private static MethodDefinitionHandle EmitHelloWorld(MetadataBuilder metadata, BlobBuilder ilBuilder, FileStream peStream)
 {
