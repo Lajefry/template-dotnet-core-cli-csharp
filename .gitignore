@@ -29,3 +29,6 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+
+#Allow
+!/Debug/net7.0/ConsoleApplication.cs
